@@ -1,0 +1,4 @@
+<policymap>
+	<policy domain="resource" name="height" value="100KP"/>
+	<policy domain="resource" name="width" value="100KP"/>
+</policymap>

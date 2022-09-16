@@ -1,0 +1,9 @@
+<policymap>
+  <policy domain="resource" name="temporary-path" value="/tmp"/>
+  <policy domain="resource" name="memory" value="800MiB"/>
+  <policy domain="resource" name="map" value="100MiB"/>
+  <policy domain="resource" name="disk" value="2GiB"/>
+  <policy domain="resource" name="height" value="100KP"/>
+  <policy domain="resource" name="width" value="100KP"/>
+  <policy domain="resource" name="list-length" value="56"/>
+</policymap>

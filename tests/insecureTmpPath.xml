@@ -1,0 +1,4 @@
+<policymap>
+  <!-- temporary path must be a preexisting writable directory -->
+  <policy domain="resource" name="temporary-path" value="/tmp"/>
+</policymap>

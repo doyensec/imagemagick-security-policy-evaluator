@@ -1,0 +1,21 @@
+{
+    "temporaryDirectoryCheck" : "/checks/resource/temporaryDirectoryCheck.js",
+    "memoryLimitingCheck" : "/checks/resource/memoryLimitingCheck.js",
+    "mapLimitingCheck" : "/checks/resource/mapLimitingCheck.js",
+    "diskLimitingCheck" : "/checks/resource/diskLimitingCheck.js",
+    "imageSizeCheck" : "/checks/resource/imageSizeCheck.js",
+    "listLengthCheck" : "/checks/resource/listLengthCheck.js",
+    "imageAreaCheck" : "/checks/resource/imageAreaCheck.js",
+    "fileLimitingCheck" : "/checks/resource/fileLimitingCheck.js",
+    "threadLimitingCheck" : "/checks/resource/threadLimitingCheck.js",
+    "timeLimitingCheck" : "/checks/resource/timeLimitingCheck.js",
+    "moduleRightsCheck" : "/checks/module/moduleRightsCheck.js",
+    "coderRightsCheck" : "/checks/coder/coderRightsCheck.js",
+    "delegateRightsCheck" : "/checks/delegate/delegateRightsCheck.js",
+    "filterRightsCheck" : "/checks/filter/filterRightsCheck.js",
+    "pathRightsCheck" : "/checks/path/pathRightsCheck.js",
+    "maxMemoryLimitingCheck" : "/checks/system/maxMemoryLimitingCheck.js",
+    "enforceShredCheck" : "/checks/system/enforceShredCheck.js",
+    "memoryLeakLimiterCheck" : "/checks/system/memoryLeakLimiterCheck.js",
+    "throttleLimitingCheck" : "/checks/resource/throttleLimitingCheck.js"
+}
