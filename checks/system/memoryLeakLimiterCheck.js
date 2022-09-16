@@ -18,11 +18,11 @@ if (xmlPolicy) {
 
         var systemSet, cacheSet = false;
 
-    	for (var issue of memoryLeakPreventionEnabledSet)
+    	for (var issue of res)
         {
             if (issue.attributes.domain === "system")
                 systemSet = true;
-            
+
             if (issue.attributes.domain === "cache")
                 cacheSet = true;
     	}
