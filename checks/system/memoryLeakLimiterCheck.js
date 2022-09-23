@@ -31,14 +31,14 @@ if (xmlPolicy) {
                 results.push({
                 "line": `<policy domain="system" name="memory-map" value="???" />`,
                 "title": "Enable anonymous memory mapping rather than from heap",
-                "description": `The policy is not enabling the initialization of buffers with zeros, resulting in a minor performance penality but at a security cost. This policy can potentially prevent the exploitation of some memory corruption or leakage issues. Depending on your use or environment, this value could still be acceptable.`
+                "description": `The policy is not enabling the initialization of buffers with zeros, resulting in a minor performance penalty but at a security cost. This policy can potentially prevent the exploitation of some memory corruption or leakage issues. Depending on your usage or environment, this value could still be acceptable.`
                 });
 
         if (!cacheSet)
                 results.push({
                 "line": `<policy domain="cache" name="memory-map" value="???" />`,
                 "title": "Enable anonymous memory mapping rather than from heap",
-                "description": `The policy is not enabling the initialization of caches with zeros, resulting in a minor performance penality but at a security cost. This policy can potentially prevent the exploitation of some memory corruption or leakage issues. Depending on your use or environment, this value could still be acceptable.`
+                "description": `The policy is not enabling the initialization of caches with zeros, resulting in a minor performance penalty but at a security cost. This policy can potentially prevent the exploitation of some memory corruption or leakage issues. Depending on your usage or environment, this value could still be acceptable.`
                 });
 
     	return results;
@@ -46,7 +46,7 @@ if (xmlPolicy) {
 	    return {
 	        "line": `<policy domain="system" name="memory-map" value="???"/>\n\n<policy domain="cache" name="memory-map" value="???"/>`,
 	        "title": "Enable anonymous memory mapping",
-	        "description": `The policy is not enabling the initialization of buffers or caches with zeros, resulting in a minor performance penality but at a security cost. This policy can potentially prevent the exploitation of some memory corruption or leakage issues. Depending on your use or environment, this value could still be acceptable.`
+	        "description": `The policy is not enabling the initialization of buffers or caches with zeros, resulting in a minor performance penalty but at a security cost. This policy can potentially prevent the exploitation of some memory corruption or leakage issues. Depending on your usage or environment, this value could still be acceptable.`
 	    }
 	}
 
