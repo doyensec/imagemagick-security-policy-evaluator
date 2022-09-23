@@ -38,7 +38,7 @@ if (xmlPolicy) {
     		results.push({
 	        "line": `<${issue.name} domain="${issue.attributes.domain}" name="${issue.attributes.name}" value="${issue.attributes.value}" />`,
 	        "title": "Memory limit may be too high",
-	        "description": "The policy is setting a map limit over <code>512 MiB</code>. This setting specifies the maxium amount of memory map in bytes that ImageMagick can use to allocate for the pixel cache. When this limit is exceeded, the image pixels are cached to disk (see <code>MAGICK_DISK_LIMIT</code>). Depending on your use or environment, these values could still be acceptable."
+	        "description": "The policy is setting a map limit over <code>512 MiB</code>. This setting specifies the maxium amount of memory map in bytes that ImageMagick can use to allocate for the pixel cache. When this limit is exceeded, the image pixels are cached to disk (see <code>MAGICK_DISK_LIMIT</code>). Depending on your usage or environment, these values could still be acceptable."
 	    	});
     	
     	return results;
@@ -46,7 +46,7 @@ if (xmlPolicy) {
 	    return {
 	        "line": `<policy domain="resource" name="map" value="???"/>`,
 	        "title": "Map limit is missing",
-	        "description": `The policy is not setting any map limit. This setting specifies the maxium amount of memory map in bytes that ImageMagick can use to allocate for the pixel cache. When this limit is exceeded, the image pixels are cached to disk (see <code>MAGICK_DISK_LIMIT</code>). Depending on your use or environment, not setting a value could still be acceptable, even if discouraged.`
+	        "description": `The policy is not setting any map limit. This setting specifies the maxium amount of memory map in bytes that ImageMagick can use to allocate for the pixel cache. When this limit is exceeded, the image pixels are cached to disk (see <code>MAGICK_DISK_LIMIT</code>). Depending on your usage or environment, not setting a value could still be acceptable, even if discouraged.`
 	    }
 	}
 
