@@ -38,7 +38,7 @@ if (xmlPolicy) {
     		results.push({
 	        "line": `<${issue.name} domain="${issue.attributes.domain}" name="${issue.attributes.name}" value="${issue.attributes.value}" />`,
 	        "title": "Disk limit may be too high",
-	        "description": `The policy is setting a disk space limit over <code>1 GB</code>. This policy is used to determine the maximum amount of disk space in bytes that is permitted for use by the pixel cache. When this limit is exceeded, the pixel cache is not be created and an error message is returned.
+	        "description": `The policy is setting a disk space limit over <code>1 GiB</code>. This policy is used to determine the maximum amount of disk space in bytes that is permitted for use by the pixel cache. When this limit is exceeded, the pixel cache is not be created and an error message is returned.
              More specifically, ImageMagick accounts for possible huge storage requirements by caching large images to disk rather than memory. Typically the pixel cache is stored in memory using heap memory. If heap memory is exhausted, the pixel cache is created on disk and attempts to memory-map it. If memory-map memory is exhausted, ImageMagick will simply use standard disk I/O.
              ImageMagick will always attempt to allocate the maximum necessary resources, but your system may be temporarily sluggish or unavailable, or ImageMagick may abort. Note that depending on your usage or environment, these values could still be acceptable.`
 	    	});
