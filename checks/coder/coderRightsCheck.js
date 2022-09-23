@@ -56,7 +56,7 @@ if (xmlPolicy) {
             results.push({
             "line": `<policy domain="coder" rights="none" pattern="???" />`,
             "title": `Missing allow-list approach in the coder policy`,
-            "description": `The current coders policy is not denying first the permissions for all coders. To avoid a denylist approach, you should at first exclude all the coders setting <code>rights</code> to <code>none</code> for all patterns (using <code>*</code>) at the beginning of the policy, and then allow only a safe subset of coders.`
+            "description": `The current coders policy is not starting by denying the permissions for all coders. To avoid a denylist approach, you should first exclude all the coders setting <code>rights</code> to <code>none</code> for all patterns (using <code>*</code>) at the beginning of the policy, and then allow only a safe subset of coders.`
             });
 
     	return results;
