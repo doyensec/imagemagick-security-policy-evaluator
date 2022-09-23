@@ -26,7 +26,7 @@ if (xmlPolicy) {
             results.push({
             "line": `<${issue.name} domain="${issue.attributes.domain}" rights="${issue.attributes.rights}" pattern="${issue.attributes.pattern}" />`,
             "title": `A ${issue.attributes.domain} policy is using lowercase characters in its pattern expression`,
-            "description": `The policy is currently defining a <code>${issue.attributes.domain}</code> directive with some lowercase characters in its pattern definition: <code>${issue.attributes.pattern}</code>. Internally, ImageMagick refers to all modules & coders in <a href="https://github.com/ImageMagick/ImageMagick/issues/4235" target="_blank">uppercase</a>. Because of this, this pattern will probably won't work as intended. If possible, ensure that the casing of the pattern is correct.`
+            "description": `The policy is currently defining a <code>${issue.attributes.domain}</code> directive with some lowercase characters in its pattern definition: <code>${issue.attributes.pattern}</code>. Internally, ImageMagick refers to all modules & coders in <a href="https://github.com/ImageMagick/ImageMagick/issues/4235" target="_blank">uppercase</a>. Because of this, this pattern likely won't work as intended. If possible, ensure that the case of the pattern is correct.`
             });
 
 
@@ -58,7 +58,7 @@ if (xmlPolicy) {
             results.push({
             "line": `<policy domain="module" rights="none" pattern="???" />`,
             "title": `Missing allow-list approach in the module policy`,
-            "description": `The current policy is not denying first the permissions for all modules. To avoid a denylist approach, you should at first exclude all the modules setting <code>rights</code> to <code>none</code> for all patterns (using <code>*</code>) at the beginning of the policy, and then allow only a safe subset of modules.`
+            "description": `The current policy is not starting with denying the permissions for all modules. To avoid a denylist approach, you should at first exclude all the modules setting <code>rights</code> to <code>none</code> for all patterns (using <code>*</code>) at the beginning of the policy, and then allow only a safe subset of modules.`
             });
 
     	return results;
