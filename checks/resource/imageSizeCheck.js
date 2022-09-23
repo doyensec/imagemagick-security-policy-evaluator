@@ -50,7 +50,7 @@ if (xmlPolicy) {
 	    return {
 	        "line": `<policy domain="resource" name="width" value="???"/>\n\n<policy domain="resource" name="height" value="???"/>`,
 	        "title": "Size limit for width and height is missing",
-	        "description": `The policy is not setting a width/height maximum pixel limit. By default, ImageMagick will process images up to <code>8192</code> pixels. The height and width parameters can be used as the first safeguards against maliciously crafted images generating large images leading to Denial of Service or slowdowns. Note that depending on your use or environment, not setting a value could still be acceptable, even if discouraged.`
+	        "description": `The policy is not setting a width/height maximum pixel limit. By default, ImageMagick will process images up to <code>8192</code> pixels. The height and width parameters can be used as the first safeguards against maliciously crafted images generating large images leading to Denial of Service or slowdowns. Note that depending on your usage or environment, not setting a value could still be acceptable, even if discouraged.`
 	    }
 	}
 

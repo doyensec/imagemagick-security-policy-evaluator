@@ -50,7 +50,7 @@ if (xmlPolicy) {
 	    return {
 	        "line": `<policy domain="resource" name="area" value="???"/>`,
 	        "title": "Area limit is missing",
-	        "description": `The policy is not setting a maximum area limit. By default, ImageMagick will process images area up to <code>3GB</code>. If the resource request exceeds the area limit, the pixels are automagically cached to disk. Note that depending on your use or environment, not setting a value could still be acceptable, even if discouraged.`
+	        "description": `The policy is not setting a maximum area limit. By default, ImageMagick will process images area up to <code>3GB</code>. If the resource request exceeds the area limit, the pixels are automatically cached to disk. Note that depending on your usage or environment, not setting a value could still be acceptable, even if discouraged.`
 	    }
 	}
 
