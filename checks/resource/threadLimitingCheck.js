@@ -23,7 +23,7 @@ if (xmlPolicy) {
     		results.push({
 	        "line": `<${issue.name} domain="${issue.attributes.domain}" name="${issue.attributes.name}" value="${issue.attributes.value}" />`,
 	        "title": "Thread number limit may be too high",
-	        "description": `The policy is setting a thread limit over <code>2</code>. This policy sets the maximum number of parallel threads. Many ImageMagick algorithms run in parallel on multi-processor systems. Use this environment variable to set the maximum number of threads that are permitted to run in parallel. Note that depending on your use or environment, this value could still be acceptable.`
+	        "description": `The policy is setting a thread limit over <code>2</code>. This policy sets the maximum number of parallel threads. Many ImageMagick algorithms run in parallel on multi-processor systems. Use this environment variable to set the maximum number of threads that are permitted to run in parallel. Note that depending on your usage or environment, this value could still be acceptable.`
 	    	});
     	
     	return results;
@@ -31,7 +31,7 @@ if (xmlPolicy) {
 	    return {
 	        "line": `<policy domain="resource" name="thread" value="???"/>`,
 	        "title": "Specify a maximum number of threads",
-	        "description": `The policy is not setting a thread limit number. The default limit is <code>2</code>. This policy sets the maximum number of parallel threads. Many ImageMagick algorithms run in parallel on multi-processor systems. Use this environment variable to set the maximum number of threads that are permitted to run in parallel. Note that depending on your use or environment, not setting a value could still be acceptable, even if discouraged.`
+	        "description": `The policy is not setting a thread limit number. The default limit is <code>2</code>. This policy sets the maximum number of parallel threads. Many ImageMagick algorithms run in parallel on multi-processor systems. Use this environment variable to set the maximum number of threads that are permitted to run in parallel. Note that depending on your usage or environment, not setting a value could still be acceptable, even if discouraged.`
 	    }
 	}
 
