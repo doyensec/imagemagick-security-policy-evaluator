@@ -5,7 +5,7 @@
 
 ## Blog Post
 
-Read more about this tool on our <a href="https://blog.doyensec.com/">dedicated blog post</a>.
+Read more about this tool on our <a href="https://blog.doyensec.com/2023/01/10/imagemagick-security-policy-evaluator.html">dedicated blog post</a>.
 
 ## License
 
