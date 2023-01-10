@@ -5,7 +5,7 @@
 
 ## Getting Started
 
-It is possible to use the online version of the tool at https://doyensec.com/imagemagick-security-policy-evaluator.
+It is possible to use the online version of the tool at https://imagemagick-secevaluator.doyensec.com/.
 Otherwise you can serve the tool from your local machine using e.g. Python:
 
 ```bash
