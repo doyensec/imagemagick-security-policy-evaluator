@@ -10,7 +10,7 @@ You can protect your installation from arbitrary file reads similar to [CVE-2022
   <policy domain="path" rights="none" pattern="*"/> 
   <policy domain="path" rights="read|write" pattern="/tmp/imagemagick-reserved-folder/*"/> 
 ```
-The `/tmp/imagemagick-reserved-folder/` path should be a directory only controlled by the underprivileged user running imagemagick.
+The `/tmp/imagemagick-reserved-folder/` path should be a directory only controlled by the underprivileged user running imagemagick. The evaluator already warns you if the above directives are not set.
 
 ## Getting Started
 
